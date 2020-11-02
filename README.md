@@ -66,7 +66,7 @@ example : {
 }
 2. open hooklist.py and create connector 
 example : {
-	    def Hookslist(self):
+    def Hookslist(self):
         return {
             "@sendmsg": "msg",
             "@deletemsg": "del"
