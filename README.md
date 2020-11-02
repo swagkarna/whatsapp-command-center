@@ -57,6 +57,23 @@ except KeyboardInterrupt:
     print("")
     cprint.info("Goodbye")
 ```
+### how to use create a connect funcation with a command
+```python
+1. Go inside whatsappCommandExcutor folder open hookfuncation.py and you can create your func here
+example : {
+    def msg(self):  # DEMO FUNCATION
+        cprint.info("helow from msg funcation")
+}
+2. open hooklist.py and create connector 
+example : {
+	    def Hookslist(self):
+        return {
+            "@sendmsg": "msg",
+            "@deletemsg": "del"
+            "@add your new command here": "your funcation name here"
+        }
+}
+```
 ### Requirement
 * python3.8
 * selenium
